@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F8A443724F7A52D0035B5FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8A443624F7A52D0035B5FB /* AppDelegate.swift */; };
+		3F8A443924F7A52D0035B5FB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8A443824F7A52D0035B5FB /* SceneDelegate.swift */; };
+		3F8A443C24F7A52D0035B5FB /* Kookers.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3F8A443A24F7A52D0035B5FB /* Kookers.xcdatamodeld */; };
+		3F8A443E24F7A52D0035B5FB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8A443D24F7A52D0035B5FB /* ContentView.swift */; };
+		3F8A444024F7A5310035B5FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F8A443F24F7A5310035B5FB /* Assets.xcassets */; };
+		3F8A444324F7A5310035B5FB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F8A444224F7A5310035B5FB /* Preview Assets.xcassets */; };
+		3F8A444624F7A5310035B5FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F8A444424F7A5310035B5FB /* LaunchScreen.storyboard */; };
+		3F8A445124F7A5310035B5FB /* KookersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8A445024F7A5310035B5FB /* KookersTests.swift */; };
+		3F8A445C24F7A5310035B5FB /* KookersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8A445B24F7A5310035B5FB /* KookersUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F8A444D24F7A5310035B5FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F8A442B24F7A52D0035B5FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F8A443224F7A52D0035B5FB;
+			remoteInfo = Kookers;
+		};
+		3F8A445824F7A5310035B5FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F8A442B24F7A52D0035B5FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F8A443224F7A52D0035B5FB;
+			remoteInfo = Kookers;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F8A443324F7A52D0035B5FB /* Kookers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kookers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F8A443624F7A52D0035B5FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F8A443824F7A52D0035B5FB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3F8A443B24F7A52D0035B5FB /* Kookers.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Kookers.xcdatamodel; sourceTree = "<group>"; };
+		3F8A443D24F7A52D0035B5FB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3F8A443F24F7A5310035B5FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F8A444224F7A5310035B5FB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3F8A444524F7A5310035B5FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F8A444724F7A5310035B5FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F8A444C24F7A5310035B5FB /* KookersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KookersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F8A445024F7A5310035B5FB /* KookersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KookersTests.swift; sourceTree = "<group>"; };
+		3F8A445224F7A5310035B5FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F8A445724F7A5310035B5FB /* KookersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KookersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F8A445B24F7A5310035B5FB /* KookersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KookersUITests.swift; sourceTree = "<group>"; };
+		3F8A445D24F7A5310035B5FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F8A443024F7A52D0035B5FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F8A444924F7A5310035B5FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F8A445424F7A5310035B5FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F8A442A24F7A52D0035B5FB = {
+			isa = PBXGroup;
+			children = (
+				3F8A443524F7A52D0035B5FB /* Kookers */,
+				3F8A444F24F7A5310035B5FB /* KookersTests */,
+				3F8A445A24F7A5310035B5FB /* KookersUITests */,
+				3F8A443424F7A52D0035B5FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F8A443424F7A52D0035B5FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F8A443324F7A52D0035B5FB /* Kookers.app */,
+				3F8A444C24F7A5310035B5FB /* KookersTests.xctest */,
+				3F8A445724F7A5310035B5FB /* KookersUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F8A443524F7A52D0035B5FB /* Kookers */ = {
+			isa = PBXGroup;
+			children = (
+				3F8A443624F7A52D0035B5FB /* AppDelegate.swift */,
+				3F8A443824F7A52D0035B5FB /* SceneDelegate.swift */,
+				3F8A443D24F7A52D0035B5FB /* ContentView.swift */,
+				3F8A443F24F7A5310035B5FB /* Assets.xcassets */,
+				3F8A444424F7A5310035B5FB /* LaunchScreen.storyboard */,
+				3F8A444724F7A5310035B5FB /* Info.plist */,
+				3F8A443A24F7A52D0035B5FB /* Kookers.xcdatamodeld */,
+				3F8A444124F7A5310035B5FB /* Preview Content */,
+			);
+			path = Kookers;
+			sourceTree = "<group>";
+		};
+		3F8A444124F7A5310035B5FB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3F8A444224F7A5310035B5FB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3F8A444F24F7A5310035B5FB /* KookersTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F8A445024F7A5310035B5FB /* KookersTests.swift */,
+				3F8A445224F7A5310035B5FB /* Info.plist */,
+			);
+			path = KookersTests;
+			sourceTree = "<group>";
+		};
+		3F8A445A24F7A5310035B5FB /* KookersUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F8A445B24F7A5310035B5FB /* KookersUITests.swift */,
+				3F8A445D24F7A5310035B5FB /* Info.plist */,
+			);
+			path = KookersUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F8A443224F7A52D0035B5FB /* Kookers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F8A446024F7A5310035B5FB /* Build configuration list for PBXNativeTarget "Kookers" */;
+			buildPhases = (
+				3F8A442F24F7A52D0035B5FB /* Sources */,
+				3F8A443024F7A52D0035B5FB /* Frameworks */,
+				3F8A443124F7A52D0035B5FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kookers;
+			productName = Kookers;
+			productReference = 3F8A443324F7A52D0035B5FB /* Kookers.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F8A444B24F7A5310035B5FB /* KookersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F8A446324F7A5310035B5FB /* Build configuration list for PBXNativeTarget "KookersTests" */;
+			buildPhases = (
+				3F8A444824F7A5310035B5FB /* Sources */,
+				3F8A444924F7A5310035B5FB /* Frameworks */,
+				3F8A444A24F7A5310035B5FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F8A444E24F7A5310035B5FB /* PBXTargetDependency */,
+			);
+			name = KookersTests;
+			productName = KookersTests;
+			productReference = 3F8A444C24F7A5310035B5FB /* KookersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F8A445624F7A5310035B5FB /* KookersUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F8A446624F7A5310035B5FB /* Build configuration list for PBXNativeTarget "KookersUITests" */;
+			buildPhases = (
+				3F8A445324F7A5310035B5FB /* Sources */,
+				3F8A445424F7A5310035B5FB /* Frameworks */,
+				3F8A445524F7A5310035B5FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F8A445924F7A5310035B5FB /* PBXTargetDependency */,
+			);
+			name = KookersUITests;
+			productName = KookersUITests;
+			productReference = 3F8A445724F7A5310035B5FB /* KookersUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F8A442B24F7A52D0035B5FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "prince ONDONDA";
+				TargetAttributes = {
+					3F8A443224F7A52D0035B5FB = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					3F8A444B24F7A5310035B5FB = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 3F8A443224F7A52D0035B5FB;
+					};
+					3F8A445624F7A5310035B5FB = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 3F8A443224F7A52D0035B5FB;
+					};
+				};
+			};
+			buildConfigurationList = 3F8A442E24F7A52D0035B5FB /* Build configuration list for PBXProject "Kookers" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F8A442A24F7A52D0035B5FB;
+			productRefGroup = 3F8A443424F7A52D0035B5FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F8A443224F7A52D0035B5FB /* Kookers */,
+				3F8A444B24F7A5310035B5FB /* KookersTests */,
+				3F8A445624F7A5310035B5FB /* KookersUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F8A443124F7A52D0035B5FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F8A444624F7A5310035B5FB /* LaunchScreen.storyboard in Resources */,
+				3F8A444324F7A5310035B5FB /* Preview Assets.xcassets in Resources */,
+				3F8A444024F7A5310035B5FB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F8A444A24F7A5310035B5FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F8A445524F7A5310035B5FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F8A442F24F7A52D0035B5FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F8A443C24F7A52D0035B5FB /* Kookers.xcdatamodeld in Sources */,
+				3F8A443724F7A52D0035B5FB /* AppDelegate.swift in Sources */,
+				3F8A443E24F7A52D0035B5FB /* ContentView.swift in Sources */,
+				3F8A443924F7A52D0035B5FB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F8A444824F7A5310035B5FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F8A445124F7A5310035B5FB /* KookersTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F8A445324F7A5310035B5FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F8A445C24F7A5310035B5FB /* KookersUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F8A444E24F7A5310035B5FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F8A443224F7A52D0035B5FB /* Kookers */;
+			targetProxy = 3F8A444D24F7A5310035B5FB /* PBXContainerItemProxy */;
+		};
+		3F8A445924F7A5310035B5FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F8A443224F7A52D0035B5FB /* Kookers */;
+			targetProxy = 3F8A445824F7A5310035B5FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F8A444424F7A5310035B5FB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F8A444524F7A5310035B5FB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F8A445E24F7A5310035B5FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F8A445F24F7A5310035B5FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F8A446124F7A5310035B5FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Kookers/Preview Content\"";
+				DEVELOPMENT_TEAM = BX74847SPV;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Kookers/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fr.kookers.ios.Kookers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F8A446224F7A5310035B5FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Kookers/Preview Content\"";
+				DEVELOPMENT_TEAM = BX74847SPV;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Kookers/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fr.kookers.ios.Kookers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3F8A446424F7A5310035B5FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BX74847SPV;
+				INFOPLIST_FILE = KookersTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fr.kookers.ios.KookersTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kookers.app/Kookers";
+			};
+			name = Debug;
+		};
+		3F8A446524F7A5310035B5FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BX74847SPV;
+				INFOPLIST_FILE = KookersTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fr.kookers.ios.KookersTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kookers.app/Kookers";
+			};
+			name = Release;
+		};
+		3F8A446724F7A5310035B5FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BX74847SPV;
+				INFOPLIST_FILE = KookersUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fr.kookers.ios.KookersUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Kookers;
+			};
+			name = Debug;
+		};
+		3F8A446824F7A5310035B5FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BX74847SPV;
+				INFOPLIST_FILE = KookersUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fr.kookers.ios.KookersUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Kookers;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F8A442E24F7A52D0035B5FB /* Build configuration list for PBXProject "Kookers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F8A445E24F7A5310035B5FB /* Debug */,
+				3F8A445F24F7A5310035B5FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F8A446024F7A5310035B5FB /* Build configuration list for PBXNativeTarget "Kookers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F8A446124F7A5310035B5FB /* Debug */,
+				3F8A446224F7A5310035B5FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F8A446324F7A5310035B5FB /* Build configuration list for PBXNativeTarget "KookersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F8A446424F7A5310035B5FB /* Debug */,
+				3F8A446524F7A5310035B5FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F8A446624F7A5310035B5FB /* Build configuration list for PBXNativeTarget "KookersUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F8A446724F7A5310035B5FB /* Debug */,
+				3F8A446824F7A5310035B5FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3F8A443A24F7A52D0035B5FB /* Kookers.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3F8A443B24F7A52D0035B5FB /* Kookers.xcdatamodel */,
+			);
+			currentVersion = 3F8A443B24F7A52D0035B5FB /* Kookers.xcdatamodel */;
+			path = Kookers.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3F8A442B24F7A52D0035B5FB /* Project object */;
+}
