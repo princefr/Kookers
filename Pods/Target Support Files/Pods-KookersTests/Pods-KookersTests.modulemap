@@ -1,0 +1,6 @@
+framework module Pods_KookersTests {
+  umbrella header "Pods-KookersTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
