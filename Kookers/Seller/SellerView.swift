@@ -19,10 +19,20 @@ struct SellerView: View {
         VStack {
             
             HStack {
+                Spacer()
                 NavigationLink(destination: WalletView()) {
-                    Text("15 €")
-                }
-            }
+                    HStack {
+                        Text("15 €")
+                            .fontWeight(.semibold)
+                            .font(.body)
+                    }
+                    .padding(10)
+                    .foregroundColor(.white)
+                    .background(Color.red)
+                    .cornerRadius(10)                }
+            }.padding(.trailing)
+            
+            
             HStack{
                 Picker(selection: $selectedMenu, label: Text("")) {
                     ForEach(0 ..< menu.count) {

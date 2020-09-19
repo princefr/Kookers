@@ -55,8 +55,9 @@ struct TabedView: View {
                     .navigationBarBackButtonHidden(true)
                     .navigationBarHidden(true)
                     
-                    }
+                }
                 .accentColor(Color(UIColor(hexString: "F95F5F")))
+
                 .introspectTabBarController { tabar in
                     tabar.hidesBottomBarWhenPushed = true
                 }

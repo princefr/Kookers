@@ -56,7 +56,7 @@ struct ProfilView: View {
                                 }
                             , alignment: .topTrailing)
                         Spacer()
-                    }
+                    }.padding(.top)
                     
                     
                     HStack {
@@ -144,10 +144,8 @@ struct ProfilView: View {
                         }
                     }
                 }
-            }.onAppear(perform: {
-            UITableView.appearance().backgroundColor = .white
-            UITableView.appearance().separatorStyle = .none
-        }).edgesIgnoringSafeArea(.bottom)
+            }.listSeparatorStyleNone()
+            .edgesIgnoringSafeArea(.bottom)
         .navigationBarTitle("Profil")
         .background(EmptyView().sheet(isPresented: $adress_search_is) {
             SearchAdressView(LocationCompleter: self.locationSearchService, selectionCity: self.$adress, view_is_open: self.$adress_search_is)

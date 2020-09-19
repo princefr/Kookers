@@ -35,8 +35,8 @@ struct ChatTextView: View {
             if message_in_typing != "" {
                 Button(action: send_button, label: {
                     Image(systemName: "paperplane.fill")
-                          .font(.system(size: 22))
-                        .foregroundColor(Color.red)
+                          .font(.system(size: 18))
+                        .foregroundColor(Color(UIColor(hexString: "F95F5F")))
                           // rotating the image...
                           .rotationEffect(.init(degrees: 45))
                           // adjusting padding shape...
@@ -48,6 +48,6 @@ struct ChatTextView: View {
                 })
             }
             
-        }.padding(.horizontal)
+        }.padding(.horizontal, 10)
     }
 }

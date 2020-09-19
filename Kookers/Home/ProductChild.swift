@@ -28,13 +28,19 @@ struct ProductChild: View {
     @State var date: Date = Date()
     
     @State var offset : CGFloat = UIScreen.main.bounds.height
+    @State var page1: PagePhotos?
+    @State var page2: PagePhotos?
+    @State var page3: PagePhotos?
+    @State var page4: PagePhotos?
+    
+    
     
     var body: some View {
         ZStack {
             ScrollView(.vertical, showsIndicators: false) {
-                StickyHeader {
-                       PageView([Text("je suis ta maman"), Text("je suis ta papa"), Text("je suis ton tonton")])
-                }
+                HStack {
+                    PageView([PagePhotos(url: self.publication.images_urls[0]), PagePhotos(url: self.publication.images_urls[1]),PagePhotos(url: self.publication.images_urls[2]), PagePhotos(url: self.publication.images_urls[3])])
+                }.frame(height: 250)
                 
 
                 VStack (alignment: .leading, spacing: 0) {
@@ -116,7 +122,21 @@ struct ProductChild: View {
             }) {
                 Image(systemName: "suit.heart")
             }
-        })
+         }).onAppear(perform: {
+            self.loadPages()
+         }).navigationBarTitle(self.publication.title)
+    }
+    
+    
+    func loadPages() {
+        let picture1 = PagePhotos(url: self.publication.images_urls[0])
+        let picture2 = PagePhotos(url: self.publication.images_urls[1])
+        let picture3 = PagePhotos(url: self.publication.images_urls[2])
+        let picture4 = PagePhotos(url: self.publication.images_urls[3])
+        self.page1 = picture1
+        self.page2 = picture2
+        self.page3 = picture3
+        self.page4 = picture4
     }
 }
 

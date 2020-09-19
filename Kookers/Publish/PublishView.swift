@@ -176,10 +176,7 @@ struct PublishView: View {
                 .cancel()
             ])
         }).edgesIgnoringSafeArea(.bottom)
-         .onAppear {
-                UITableView.appearance().backgroundColor = .white
-                UITableView.appearance().separatorStyle = .none
-        }
+          .listSeparatorStyleNone()
     }
     
     
@@ -187,7 +184,7 @@ struct PublishView: View {
         if self.image_1 != nil && self.image_2 != nil && self.image_3 != nil && self.image_4 != nil {
             let pubdb = self.storedSession.publicationRef
             let id = pubdb.document().documentID
-            self.storedSession.sendImages(publicationRef: id, images: [self.image_1!.jpegData(compressionQuality: 80)!, self.image_2!.jpegData(compressionQuality: 80)!, self.image_3!.jpegData(compressionQuality: 80)!, self.image_4!.jpegData(compressionQuality: 80)!]) { (urls) in
+            self.storedSession.sendImages(publicationRef: id, images: [self.image_1!.jpegData(compressionQuality: 70)!, self.image_2!.jpegData(compressionQuality: 70)!, self.image_3!.jpegData(compressionQuality: 70)!, self.image_4!.jpegData(compressionQuality: 70)!]) { (urls) in
                 if urls != nil && urls!.count > 0 {
                     self.publication.SellerID = self.storedSession.session.uid
                     self.publication.uid = id
@@ -215,5 +212,24 @@ struct PublishView: View {
 struct PublishView_Previews: PreviewProvider {
     static var previews: some View {
         PublishView(show_publish_sheet: .constant(true))
+    }
+}
+
+
+public struct ListSeparatorStyleNoneModifier: ViewModifier {
+    public func body(content: Content) -> some View {
+        content.onAppear {
+            UITableView.appearance().separatorStyle = .none
+            UITableView.appearance().backgroundColor = .white
+        }.onDisappear {
+            UITableView.appearance().separatorStyle = .singleLine
+            UITableView.appearance().backgroundColor = .white
+        }
+    }
+}
+
+extension View {
+    public func listSeparatorStyleNone() -> some View {
+        modifier(ListSeparatorStyleNoneModifier())
     }
 }

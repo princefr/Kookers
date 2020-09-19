@@ -33,6 +33,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
             self.window = window
             window.makeKeyAndVisible()
         }
+        
+        self.configureAppearance()
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
@@ -67,5 +69,15 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     }
 
 
+}
+
+
+private extension SceneDelegate {
+    
+    func configureAppearance() {
+        UITableView.appearance().backgroundColor = .clear
+        UITableView.appearance().separatorStyle = .none
+    }
+    
 }
 

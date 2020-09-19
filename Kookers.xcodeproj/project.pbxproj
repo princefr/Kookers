@@ -30,6 +30,10 @@
 		3F46DA92250AB64900A48413 /* OrderStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F46DA91250AB64900A48413 /* OrderStatusView.swift */; };
 		3F46DA94250B311800A48413 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F46DA93250B311800A48413 /* ImageLoader.swift */; };
 		3F46DA98250F143C00A48413 /* CustomActionSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F46DA97250F143C00A48413 /* CustomActionSheet.swift */; };
+		3F4704CE2515DE9600DAB24D /* PagePhotos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4704CD2515DE9600DAB24D /* PagePhotos.swift */; };
+		3F4704D32515EB6E00DAB24D /* ChatBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4704D22515EB6E00DAB24D /* ChatBubble.swift */; };
+		3F4704D82515FC8400DAB24D /* ScrollingProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4704D72515FC8400DAB24D /* ScrollingProxy.swift */; };
+		3F4704DD251602B800DAB24D /* SeparatorProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4704DC251602B800DAB24D /* SeparatorProxy.swift */; };
 		3F5CBA76250F8B0A0075BB6F /* WalletView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5CBA75250F8B0A0075BB6F /* WalletView.swift */; };
 		3F8A443724F7A52D0035B5FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8A443624F7A52D0035B5FB /* AppDelegate.swift */; };
 		3F8A443924F7A52D0035B5FB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8A443824F7A52D0035B5FB /* SceneDelegate.swift */; };
@@ -151,6 +155,10 @@
 		3F46DA91250AB64900A48413 /* OrderStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderStatusView.swift; sourceTree = "<group>"; };
 		3F46DA93250B311800A48413 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
 		3F46DA97250F143C00A48413 /* CustomActionSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomActionSheet.swift; sourceTree = "<group>"; };
+		3F4704CD2515DE9600DAB24D /* PagePhotos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagePhotos.swift; sourceTree = "<group>"; };
+		3F4704D22515EB6E00DAB24D /* ChatBubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBubble.swift; sourceTree = "<group>"; };
+		3F4704D72515FC8400DAB24D /* ScrollingProxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollingProxy.swift; sourceTree = "<group>"; };
+		3F4704DC251602B800DAB24D /* SeparatorProxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeparatorProxy.swift; sourceTree = "<group>"; };
 		3F5CBA75250F8B0A0075BB6F /* WalletView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletView.swift; sourceTree = "<group>"; };
 		3F8A443324F7A52D0035B5FB /* Kookers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kookers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F8A443624F7A52D0035B5FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -449,6 +457,9 @@
 				3F46DA7B250A8B3900A48413 /* RoundedButtonView.swift */,
 				3F46DA93250B311800A48413 /* ImageLoader.swift */,
 				3F46DA97250F143C00A48413 /* CustomActionSheet.swift */,
+				3F4704CD2515DE9600DAB24D /* PagePhotos.swift */,
+				3F4704D72515FC8400DAB24D /* ScrollingProxy.swift */,
+				3F4704DC251602B800DAB24D /* SeparatorProxy.swift */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -593,6 +604,7 @@
 				3F8A44DB24FD67440035B5FB /* ChatView.swift */,
 				3F8A44F524FFAE990035B5FB /* ChatViewChild.swift */,
 				3F8A44F924FFB25E0035B5FB /* ChatTextView.swift */,
+				3F4704D22515EB6E00DAB24D /* ChatBubble.swift */,
 			);
 			path = Chat;
 			sourceTree = "<group>";
@@ -941,6 +953,7 @@
 				3F8A448124F8280A0035B5FB /* OnBoardingView.swift in Sources */,
 				3F8A44F424FFA7250035B5FB /* SellerOrderViewChild.swift in Sources */,
 				3F46DA78250A579400A48413 /* BigStarIcon.swift in Sources */,
+				3F4704D82515FC8400DAB24D /* ScrollingProxy.swift in Sources */,
 				3F46DA652509429200A48413 /* Network.swift in Sources */,
 				3F8A44E224FE476C0035B5FB /* ProductChild.swift in Sources */,
 				3F8A44D424FD110B0035B5FB /* AdressInPublishView.swift in Sources */,
@@ -969,9 +982,12 @@
 				3F46DA94250B311800A48413 /* ImageLoader.swift in Sources */,
 				3F8A44E424FE4ACA0035B5FB /* StickyHeader.swift in Sources */,
 				3F8A449124F8FC580035B5FB /* RadioSwitch.swift in Sources */,
+				3F4704D32515EB6E00DAB24D /* ChatBubble.swift in Sources */,
 				3F8A44CC24FCD94F0035B5FB /* PublishView.swift in Sources */,
+				3F4704DD251602B800DAB24D /* SeparatorProxy.swift in Sources */,
 				3F46DA92250AB64900A48413 /* OrderStatusView.swift in Sources */,
 				3F8A447C24F827A40035B5FB /* PageView.swift in Sources */,
+				3F4704CE2515DE9600DAB24D /* PagePhotos.swift in Sources */,
 				3F8A44FC24FFD9AC0035B5FB /* LegacyScrollView.swift in Sources */,
 				3F8A44E024FE3D470035B5FB /* ProductCell.swift in Sources */,
 				3F8A447A24F8274A0035B5FB /* PageViewController.swift in Sources */,
@@ -1147,6 +1163,7 @@
 				DEVELOPMENT_TEAM = BX74847SPV;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Kookers/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1169,6 +1186,7 @@
 				DEVELOPMENT_TEAM = BX74847SPV;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Kookers/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
